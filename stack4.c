@@ -36,7 +36,7 @@ void peek()
     if (front == -1 || front > rear)
         printf("Queue is empty\n");
     else
-        printf("Front element: %d\n", queue[front]);
+        printf("The front element: %d\n", queue[front]);
 }
 void display()
 {
