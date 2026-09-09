@@ -22,7 +22,7 @@ int isEmpty(struct Stack *s) {
 
 void push(struct Stack *s, int value) {
     if (isFull(s)) {
-        printf("Error: Stack Overflow! Reached maximum limit of %d items.\n", MAX);
+        printf("Error: Stack Overflow! Reached the maximum limit of %d items.\n", MAX);
     } else {
         s->top++;
         s->items[s->top] = value;
