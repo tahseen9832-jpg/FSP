@@ -22,6 +22,6 @@ int main(){
         scanf("%d", &arr[i]);
     }
     int result = maxconsecutiveOnes(arr, n);
-    printf("Maximum consecutive 1s: %d\n", result);
+    printf("The Maximum consecutive 1s: %d\n", result);
     return 0;
 }
