@@ -30,7 +30,7 @@ void createNode(){
 }
 void displayList(){
     if(head==NULL){
-        printf("List is empty\n");
+        printf("The List is empty\n");
         return;
     }
     struct Node* temp=head;
