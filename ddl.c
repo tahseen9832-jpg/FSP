@@ -116,7 +116,7 @@ void reverse() {
     if (temp != NULL) {
         head = temp->prev;
     }
-    printf("The Doubly linked list reversed successfully!\n");
+    printf(" Doubly linked list reversed successfully!\n");
 }
 
 void print() {
