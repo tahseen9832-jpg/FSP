@@ -20,7 +20,7 @@ int main(){
         printf("No odd number found in the string");
     }
     else{
-        printf("Largest odd number in the string is: %s",result);
+        printf(" The Largest odd number in the string is: %s",result);
     }
     return 0;
 }
