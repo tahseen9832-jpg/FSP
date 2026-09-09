@@ -25,7 +25,7 @@ int main()
             secondmax = arr[i];
         }
     }
-    printf("Second maximum element = %d", secondmax);
+    printf("The Second maximum element is : %d", secondmax);
 
     return 0;
 }
