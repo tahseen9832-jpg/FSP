@@ -68,7 +68,7 @@ void insertBeginning(struct Node **head, int value)
         (*head)->prev = newNode;
     }
     *head = newNode;
-    printf("Node inserted at beginning.\n");
+    printf("Node inserted at the beginning.\n");
 }
 void insertEnd(struct Node **head, int value)
 {
