@@ -2,7 +2,7 @@
 int main(){
     char s[20],result[20];
     int depth=0,j=0,i;
-    printf("Enter any string:");
+    printf("Enter the string:");
     gets(s);
     int n=strlen(s);
     for(i=0;i<n;i++){
