@@ -16,7 +16,7 @@ void insertAtBeginning() {
         printf("Memory allocation failed!\n");
         return;
     }
-    printf("Enter data: ");
+    printf("Enter the data: ");
     scanf("%d", &value);
     newnode->data = value;
     newnode->next = head;
