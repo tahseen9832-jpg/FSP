@@ -21,6 +21,6 @@ int main(){
         printf("Array is sorted");
     }
     else{
-        printf("Array is not sorted");
+        printf("The array is not sorted");
     }
 }
