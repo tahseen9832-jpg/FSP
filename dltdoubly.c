@@ -136,7 +136,7 @@ void insertEnd(struct Node **head, int value)
     { temp = temp->next;}
    temp->next = newNode; 
     newNode->next = *head;
-    printf("Node inserted at end.\n");
+    printf("Node inserted at the end.\n");
 }
 
 
