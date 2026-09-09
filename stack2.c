@@ -89,7 +89,7 @@ int main()
         switch (choice)
         {
             case 1:
-                printf("Enter value: ");
+                printf("Enter the value: ");
                 scanf("%d", &value);
                 push(value);
                 break;
