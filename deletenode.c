@@ -50,7 +50,7 @@ void deleteAtPosition() {
         return;
     }
     int pos, i;
-    printf("Enter position to delete: ");
+    printf("Enter the position to delete: ");
     scanf("%d", &pos);
    if (pos <= 0) {
         printf("Invalid position.\n");
