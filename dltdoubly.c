@@ -170,7 +170,7 @@ void insertPosition(struct Node **head, int value, int position)
     newNode = createNode(value);
     newNode->next = temp->next;
     temp->next = newNode;
-    printf("Node inserted at position %d.\n", position);
+    printf("Node inserted at the position %d.\n", position);
 }
 
 
