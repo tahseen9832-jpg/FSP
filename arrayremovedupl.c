@@ -8,7 +8,7 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
-    printf("Array after removing duplicates:");
+    printf("Array after removing the duplicates:");
     for(i=0;i<n;i++){
         if(freq[a[i]]==0){
             printf("%d ",a[i]);
