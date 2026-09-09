@@ -78,7 +78,7 @@ int main() {
 
         switch (choice) {
             case 1:
-                printf("Enter value to push: ");
+                printf("Enter the value to push: ");
                 scanf("%d", &val);
                 push(&s, val);
                 break;
