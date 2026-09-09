@@ -32,7 +32,7 @@ void createList(struct Node **head)
     scanf("%d", &n);
     for (i = 1; i <= n; i++)
     {
-        printf("Enter data for node %d: ", i);
+        printf("Enter the data for node %d: ", i);
         scanf("%d", &value);
         newNode = createNode(value);
        if (*head == NULL)
