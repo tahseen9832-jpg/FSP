@@ -28,7 +28,7 @@ void createList(struct Node **head)
     struct Node *newNode;
     struct Node *temp;
 
-    printf("Enter number of nodes: ");
+    printf("Enter the number of nodes: ");
     scanf("%d", &n);
     for (i = 1; i <= n; i++)
     {
