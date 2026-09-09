@@ -17,7 +17,7 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
-    printf("Enter k:");
+    printf("Enter the value of k:");
     scanf("%d",&k);
     k=k%n;
     rev(a,0,k-1);
