@@ -15,7 +15,7 @@ int main(){
         }
     int temp=a[i];a[i]=a[j];a[j]=temp;j++;
     }
-    printf("Array after moving all zeros to the end:");
+    printf("Array after moving all the zeros to the end:");
     for(i=0;i<n;i++){
         printf("%d ",a[i]);
     }
