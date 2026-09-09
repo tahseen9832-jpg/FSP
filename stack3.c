@@ -38,7 +38,7 @@ int main()
     char str[MAX];
     int i;
 
-    printf("Enter a string: ");
+    printf("Enter any string: ");
     fgets(str, MAX, stdin);
 
     // Push each character into stack
