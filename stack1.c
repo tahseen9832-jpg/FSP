@@ -73,7 +73,7 @@ int main() {
     while (1) {
         printf("\n--- Stack Menu (Max: %d) ---\n", MAX);
         printf("1. Push\n2. Pop\n3. Peek\n4. Display\n5. Exit\n");
-        printf("Enter the choice: ");
+        printf("Enter your choice: ");
         if (scanf("%d", &choice) != 1) break;
 
         switch (choice) {
